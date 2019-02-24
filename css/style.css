@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.ba-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.ba-cities-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ba-city{
+    border: 2px solid #fff;
+    background-color: #33cccc;
+    width: 25%;
+    text-align: center
+}
+.ba-w50{
+    width: 50%;
+}
+.ba-w100{
+    width: 100;
+}
+.ba-lisbon{
+
+}
