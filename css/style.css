@@ -9,6 +9,7 @@ html {
 html,
 body {
     min-height: 100%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 *,
@@ -16,10 +17,19 @@ body {
 *:after {
     box-sizing: border-box;
 }
+body{
+    border: 25px solid #2B81AC;
+    background-color: #3399CC;
+    color: #fff;
+}
 
-.ba-container{
-    max-width: 800px;
+header h1, i{
+    font-size: 30px;
+}
+
+.ba-container {
     margin: 0 auto;
+    max-width: 1024px;
     padding: 0 20px;
 }
 
@@ -44,4 +54,38 @@ body {
 }
 .ba-lisbon{
     background-color: 
+}
+
+.lisbon{
+    background-color: #3399cc;
+}
+.paris{
+    background-color: #33cccc;
+}
+.belgrade{
+    background-color: #996699;
+}
+.moscow{
+    background-color: #c24747;
+}
+.tel-aviv{
+    background-color: #e2674a;
+}
+.cair{
+    background-color: #ffcc66;
+}
+.new-york{
+    background-color: #99cc99;
+}
+.new-delhi{
+    background-color: #669999;
+}
+.san-francisco{
+    background-color: #cc6699;
+}
+.tokyo{
+    background-color: #339966;
+}
+.sydney{
+    background-color: #666699;
 }
