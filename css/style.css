@@ -30,6 +30,13 @@ header h1, i{
     font-size: 30px;
 }
 
+h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+}
+
 .ba-container {
     margin: 0 auto;
     max-width: 1024px;
@@ -42,12 +49,40 @@ header h1, i{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    background: #fff;
 }
 .ba-city{
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     background-color: #33cccc;
     width: 25%;
     text-align: center
+}
+.ba-cities-list li{
+    text-align: center;
+    display: inline-block;
+    padding: 30px 10px;
+    border: 3px solid #fff;
+    font-size: 26px;
+}
+.ba-city .wi {
+    font-size:  40px;
+}
+.ba-cities-list li .ba-temp, .ba-cities-list li .wi{
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.7);
+}
+.ba-cities-list:hover > li {
+    opacity: .6;
+}
+.ba-cities-list li:hover{
+    opacity: 1;
+}
+.ba-cities-list li:active{
+    background: #fff;
+}
+.ba-city h3{
+    font-size: 26px;
+    margin-bottom: 15px;
 }
 .ba-w50{
     width: 50%;
@@ -91,4 +126,10 @@ header h1, i{
 }
 .sydney{
     background-color: #666699;
+}
+
+.ba-footer {
+    padding: 30px 0;
+    color: #ffffff;
+    font-size:  22px;
 }
