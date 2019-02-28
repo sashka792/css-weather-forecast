@@ -76,9 +76,11 @@ h3{
 }
 .ba-cities-list li:hover{
     opacity: 1;
+    cursor: pointer;
 }
 .ba-cities-list li:active{
     background: #fff;
+    transition: all .2s;
 }
 .ba-city h3{
     font-size: 26px;
